@@ -7,7 +7,7 @@ public class Coms {
     public static void go(String s) {
         switch (s) {
             case "q":
-                Start.q = false;
+                Start.q = true;
                 return;
             case "p":
                 Start.b1.pm++;
@@ -29,10 +29,10 @@ public class Coms {
         //win?
         if (Start.b1.cu < 1) {
             System.out.println("You lose!");
-            Start.q = false;
+            Start.q = true;
         } else if (Start.b2.cu < 1) {
             System.out.println("You win!");
-            Start.q = false;
+            Start.q = true;
         }
     }
 
