@@ -17,7 +17,7 @@ import java.io.InputStreamReader;
  *      - 🔒ⓢ{@link Start#rules()} вывод правил <br>
  *      - 🔒ⓢ{@link Start#in()} ввод <br>
  *      - 🔒ⓢ{@link Start#info()} вывод состояния базы игрока <br>
- *      - 🚶ⓢ{@link Start#main(String[])} стартовый класс <br>
+ *      - 🚶ⓢ{@link Start#main(String[])} стартовый метод <br>
  */
 public class Start {
     static boolean q = false;
